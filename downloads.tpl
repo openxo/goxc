@@ -3,7 +3,7 @@ layout: default
 title: Downloads
 ---
 
-NOTE: don't use binaries for goxc. Please use `go get -u github.com/laher/goxc` instead.
+NOTE: don't use binaries for goxc. Please use `go get -u github.com/openxo/goxc` instead.
 
 {{.AppName}} downloads (version {{.Version}})
 

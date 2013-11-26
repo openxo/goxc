@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/laher/goxc/core"
+	"github.com/openxo/goxc/core"
 	"log"
 	"runtime"
 )

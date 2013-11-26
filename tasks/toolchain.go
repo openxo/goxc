@@ -18,10 +18,10 @@ package tasks
 
 import (
 	"errors"
-	"github.com/laher/goxc/config"
-	"github.com/laher/goxc/core"
-	"github.com/laher/goxc/executils"
-	"github.com/laher/goxc/platforms"
+	"github.com/openxo/goxc/config"
+	"github.com/openxo/goxc/core"
+	"github.com/openxo/goxc/executils"
+	"github.com/openxo/goxc/platforms"
 	"log"
 	"os"
 	"os/exec"

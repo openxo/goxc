@@ -1,7 +1,7 @@
 package executils
 
 import (
-//	"github.com/laher/goxc/typeutils"
+//	"github.com/openxo/goxc/typeutils"
 //	"testing"
 )
 

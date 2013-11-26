@@ -5,7 +5,7 @@ import (
 	"debug/macho"
 	"debug/pe"
 	"errors"
-	"github.com/laher/goxc/platforms"
+	"github.com/openxo/goxc/platforms"
 	"log"
 	"os"
 )

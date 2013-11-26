@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/laher/goxc/config"
+	"github.com/openxo/goxc/config"
 	"testing"
 )
 

@@ -18,8 +18,8 @@ package config
 */
 
 import (
-	"github.com/laher/goxc/core"
-	"github.com/laher/goxc/typeutils"
+	"github.com/openxo/goxc/core"
+	"github.com/openxo/goxc/typeutils"
 	"log"
 )
 

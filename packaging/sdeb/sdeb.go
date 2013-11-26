@@ -18,7 +18,7 @@ package sdeb
 
 import (
 	"fmt"
-	"github.com/laher/goxc/archive"
+	"github.com/openxo/goxc/archive"
 	"io"
 	"io/ioutil"
 	"log"

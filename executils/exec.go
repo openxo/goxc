@@ -26,8 +26,8 @@ import (
 	"os/exec"
 	//Tip for Forkers: please 'clone' from my url and then 'pull' from your url. That way you wont need to change the import path.
 	//see https://groups.google.com/forum/?fromgroups=#!starred/golang-nuts/CY7o2aVNGZY
-	"github.com/laher/goxc/config"
-	"github.com/laher/goxc/platforms"
+	"github.com/openxo/goxc/config"
+	"github.com/openxo/goxc/platforms"
 	"path/filepath"
 	"runtime"
 	"strconv"

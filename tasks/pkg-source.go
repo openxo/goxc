@@ -22,10 +22,10 @@ import (
 	//Tip for Forkers: please 'clone' from my url and then 'pull' from your url. That way you wont need to change the import path.
 	//see https://groups.google.com/forum/?fromgroups=#!starred/golang-nuts/CY7o2aVNGZY
 	"fmt"
-	"github.com/laher/goxc/archive"
-	"github.com/laher/goxc/packaging/sdeb"
-	"github.com/laher/goxc/platforms"
-	"github.com/laher/goxc/typeutils"
+	"github.com/openxo/goxc/archive"
+	"github.com/openxo/goxc/packaging/sdeb"
+	"github.com/openxo/goxc/platforms"
+	"github.com/openxo/goxc/typeutils"
 	"io/ioutil"
 	"os"
 	"path/filepath"

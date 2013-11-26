@@ -1,7 +1,7 @@
 goxc
 ====
 
-[goxc](https://github.com/laher/goxc) is a build tool for Go, with a focus on cross-compiling and packaging.
+[goxc](https://github.com/openxo/goxc) is a build tool for Go, with a focus on cross-compiling and packaging.
 
 By default, goxc [g]zips (& .debs for Linux) the programs, and generates a 'downloads page' in markdown (with a Jekyll header). Goxc also provides integration with [bintray.com](https://bintray.com) for simple uploads.
 
@@ -56,12 +56,12 @@ goxc requires the go source and the go toolchain.
 
 				brew tap homebrew/versions
 				brew install apple-gcc42
-				go get github.com/laher/goxc
+				go get github.com/openxo/goxc
 				CC=`brew list apple-gcc42 | grep bin/gcc-4.2` goxc -t
 
  2. Install goxc:
 
-		go get github.com/laher/goxc
+		go get github.com/openxo/goxc
 			
  3. a. *Optional*: to pre-build the toolchains for all platforms:
 
@@ -146,7 +146,7 @@ To create a config file, just use the -wc (write config) option.
 
 You can also use multiple config files to support different paremeters for each platform.
 
-The configuration file(s) feature is documented in much more detail in [the wiki](https://github.com/laher/goxc/wiki/config)
+The configuration file(s) feature is documented in much more detail in [the wiki](https://github.com/openxo/goxc/wiki/config)
 
 Limitations
 -----------
@@ -175,8 +175,8 @@ License
 
 See also
 --------
- * [Changelog](https://github.com/laher/goxc/wiki/changelog)
- * [Package Versioning](https://github.com/laher/goxc/wiki/versioning)
- * [Wiki home](https://github.com/laher/goxc/wiki)
- * [Contributions](https://github.com/laher/goxc/wiki/contributions)
- * [TODOs](https://github.com/laher/goxc/wiki/todo)
+ * [Changelog](https://github.com/openxo/goxc/wiki/changelog)
+ * [Package Versioning](https://github.com/openxo/goxc/wiki/versioning)
+ * [Wiki home](https://github.com/openxo/goxc/wiki)
+ * [Contributions](https://github.com/openxo/goxc/wiki/contributions)
+ * [TODOs](https://github.com/openxo/goxc/wiki/todo)
